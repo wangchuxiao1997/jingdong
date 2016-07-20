@@ -1,0 +1,388 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+	list-style:none;
+	text-decoration:none;
+	color:#666;
+	background-repeat:no-repeat;
+	}
+.main{
+	margin:auto;
+	width:1210px;
+	}
+.l-float{
+	float:left;}
+.r-float{
+	float:right;}
+.all{
+	 }
+.top_nav{
+	width:100%;
+	height:30px;
+	background:#F1F1F1;
+	}
+.top_nav_main{
+	width:1210px;
+	height:30px;
+	margin:auto;
+	}
+.top_nav_main ul li{
+	line-height:30px;
+	font-size:12px;
+	}
+.top_nav_main_left{
+	float:left;
+	}
+.top_nav_main_right{
+	float:right;
+	}
+.top_nav_main_right ul li{
+	float:right;
+	text-align:center;
+	height:14px;
+	}
+.top_nav_main_right ul li span{
+	color:#C81623;
+	}
+.top_nav_main ul li a{
+	color:#666;
+	}
+ul li a:hover{
+	color:#B61D1D;
+	}
+.news .main_left ul li:hover{
+	color:#B61D1D;
+	background:white;
+	}
+.news .main_left ul li:hover a{
+	color:#B61D1D;
+	}
+.news .main_left ul li a:hover{
+	color:#B61D1D;
+	background:white;
+	}
+#phonelogo{
+	margin-top:6px;
+	margin-left:7px;
+	float:left;
+	}
+.top_nav_pic{
+	width:100%;
+	background:#67aef7;
+	height:80px;
+	margin:auto;
+	}
+.search{
+	width:456px;
+	height:32px;
+	border:2px solid #B61D1D;
+	float:right;
+	margin-top:30px;
+	}
+.buy{
+	width:141px;
+	height:34px;
+	background:#F9F9F9;
+	border:#DFDFDF 1px solid;
+	margin-top:30px;
+	margin-right:70px;
+	margin-left:100px;
+	font-size:12px;
+	text-align:center;
+	line-height:34px;
+	}
+.search_information {
+	margin-left:354px;
+	margin-top:-10px;
+	}
+.search_information ul li{
+	float:left;
+	font-size:12px;
+	margin-right:10px;
+	height:20px;
+		}
+.news{
+	margin-top:40px;
+	}
+.main_left{
+	width:210px;
+	float:left;
+	font-size:14px;
+	background:#C33;
+	}
+.main_left ul li a{
+	color:#FFF;
+	font-family: "Microsoft YaHei";
+	}
+.main_nav {
+	width:1000px;
+	}
+.main_left ul li{
+	height:31px;
+	line-height:31px;
+	padding-left:10px;
+	}
+.main_nav ul li{
+	float:left;
+	height:44px;
+	line-height:44px;
+	margin-left:20px;
+	margin-right:20px;
+	font-family: "Microsoft YaHei";
+	color:#000;
+	}
+.main_nav{
+	float:left;
+	border-bottom:3px solid #b61d1d;
+	}
+.main_mid{
+	width:730px;
+	height:454px;
+	background:#033;
+	float:left;
+	margin-top:10px;
+	margin-left:10px;
+	}
+.main_right{
+	height:372px;
+	width:248px;
+	float:left;
+	margin-top:10px;
+	margin-left:10px;
+	margin-bottom:5px;
+	border:#E8E8E7 1px solid;
+	}
+.main_right_nav{
+	height:33px;}
+.main_right_nav ul li {
+	height:33px;
+	line-height:33px;
+	border-bottom:#E8E8E7 1px dashed;
+	width:110px;
+	}
+.main_right_news {
+	height:125px;
+	border-bottom:1px solid #E8E8E7;
+	}
+.main_right_news span {
+	font-weight:bold;
+	}
+.main_right_news ul li{
+	height:24px;
+	line-height:24px;
+	font-size:12px;
+	text-align:center;
+	}
+.main_right_pic{
+	height:214px;
+	}
+.main_right_pic ul li{
+	height:70px;
+	border:1px solid #E8E8E7;
+	width:60px;
+	float:left;
+	text-align:center;
+	}
+.main_right_pic ul li img{
+	margin-top:10px;
+	}
+.today{
+	margin-top:10px;
+	height:164px;
+	}
+
+.today ul li{
+	margin-left:1px;
+	margin-right:1px;
+	}
+.love .love_nav{
+	height:30px;
+	width:1210px;
+	}
+.love .love_nav ul li{
+	line-height:30px;
+	font-family: "Microsoft YaHei";
+	font-size:20px;
+	}
+.love .love_main{
+	height:230px;
+	width:1200px;
+	border:1px solid #E8E8E7;
+	margin-top:10px;
+	}
+.love .love_main_word ul li{
+	
+	font-size:12px;
+	border-right:1px solid #E8E8E7;
+	height:61px;
+	margin-top:25px;
+	text-align:center;
+	}
+.love .love_main_word ul li span{
+	color:#b51d1a;
+	font-size:18px;
+	font-weight:bold;
+	}
+.love .love_main ul li{
+	float:left;
+	width:199px;
+	}
+.love .love_main .love_main_pic img {
+	margin-left:35px;
+	}
+.life {
+	height:580px;}
+/*    */
+.F_style{
+	margin-top:28px;
+	}
+.F_nav_left ul li{
+	float:left;
+	font-weight:400;
+	font-size:20px;
+	font-family: "microsoft yahei";
+	height:37px;
+	line-height:37px;
+	}
+.F_nav{
+	height:39px;}
+.F_nav_right ul li{
+	float:right;
+	padding-left:20px;
+	padding-right:20px;
+	line-height:37px;
+	height:37px;
+	font-size:12px;
+	border:1px solid #E8E8E7;
+	}
+	
+	/*   以上通用*/
+.F1_main{
+	width:1208px;
+	height:632px;
+	border:1px solid #E8E8E7;
+	position:absolute;
+	}
+.F1_main_left{
+	width:328px;
+	height:475px;
+	background:url(../IMG/1FPIC.jpg);
+	float:left;
+	}
+.F1_main_left2{
+	width:328px;
+	height:157px;
+	float:left;
+	}
+.F1_main_left_p1{
+	background:rgba(0,0,0,0.2);
+	height:92px;
+	width:328px;
+	float:left;
+	margin-top:254px;
+	font-family: "microsoft yahei";
+	}
+.F1_main_left_p1 ul li{
+	float:left;
+	width:100px;
+	height:46px;
+	text-align:center;
+	line-height:46px;
+	}
+.F1_main_left_p2{
+	width:328px;
+	height:129px;
+	background:#333;
+	float:right;
+	background: rgba(255,255,255,.7);
+	}
+.F1_main_left_p2 ul{
+	height:96px;
+	margin-top:20px;
+	}
+.F1_main_left_p2 ul li{
+	font-size: 12px;
+	height:24px;
+	}
+.F1_main_right ul li{
+	float:left;
+	border:1px solid #E8E8E7;
+	width:218px;
+	height:235px;
+	}
+.F1_main_right {
+	
+	width:880px;
+	height:475px;
+	float:left;
+	font-size:12px;
+	}
+.F1_main_right ul li .right1{
+	margin-top:10px;}
+.F1_main_right img{
+	margin-top:20px;
+	margin-left:40px;
+	}
+.F1_main_right ul li span{
+	font-size: 15px;
+    font-family: Verdana;
+    color: #E4393C;
+	}
+
+.F1_main_right2{
+	height:157px;
+	width:880px;
+	
+	float:right;
+	margin-top:-157px;
+	}
+.F1_main_right2 ul li{
+	float:left;}
+.bottom{
+	margin:auto;
+	width:1210px;
+	height:185px;
+	border-bottom:1px solid #E8E8E7;
+	}
+.bottom ul li{
+	float:left;
+	margin-right:52px;
+	}
+.bottom ul li ul li{
+	float:none;
+	font-size:14px;
+	margin-top:5px;}
+.bottom ul li ul li span{
+	font-size:18px;
+	font-weight:bold;
+	}
+.aboutus{
+	width:1210px;
+	height:130px;
+	margin:auto;
+	margin-top:30px;
+	}
+.aboutus1 ul{
+	margin-left:150px;}
+.aboutus1 ul li{
+	float:left;
+	font-size:12px;
+	margin-left:10px;
+	border-right:1px solid #E8E8E7;
+	width:60px;
+	}
+.aboutus2 ul li{
+	font-size:12px;
+	margin-left:200px;
+	margin-top:15px;
+	}
+.aboutus3 ul li{
+	margin-right:10px;
+	float:left;
+	margin-top:13px;
+	}
+.aboutus3 ul{
+	margin-left:200px;
+	}
